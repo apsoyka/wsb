@@ -1,0 +1,10 @@
+<Configuration>
+    <VGpu>Disable</VGpu>
+    <Networking>Disable</Networking>
+    <AudioInput>Disable</AudioInput>
+    <VideoInput>Disable</VideoInput>
+    <PrinterRedirection>Disable</PrinterRedirection>
+    <ClipboardRedirection>Disable</ClipboardRedirection>
+    <ProtectedClient>Enable</ProtectedClient>
+    <MemoryInMB>2048</MemoryInMB>
+</Configuration>

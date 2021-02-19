@@ -1,0 +1,47 @@
+<Configuration>
+    <VGpu>Enable</VGpu>
+    <Networking>Enable</Networking>
+    <AudioInput>Enable</AudioInput>
+    <VideoInput>Enable</VideoInput>
+    <PrinterRedirection>Enable</PrinterRedirection>
+    <ClipboardRedirection>Default</ClipboardRedirection>
+    <ProtectedClient>Disable</ProtectedClient>
+    <MemoryInMB>2048</MemoryInMB>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>C:\Program Files</HostFolder>
+            <SandboxFolder>C:\Program Files</SandboxFolder>
+            <ReadOnly>True</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\Program Files (x86)</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)</SandboxFolder>
+            <ReadOnly>True</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\Users\Public\Documents</HostFolder>
+            <SandboxFolder>C:\Users\Public\Documents</SandboxFolder>
+            <ReadOnly>False</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\Users\Public\Downloads</HostFolder>
+            <SandboxFolder>C:\Users\Public\Downloads</SandboxFolder>
+            <ReadOnly>False</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\Users\Public\Music</HostFolder>
+            <SandboxFolder>C:\Users\Public\Music</SandboxFolder>
+            <ReadOnly>False</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\Users\Public\Pictures</HostFolder>
+            <SandboxFolder>C:\Users\Public\Pictures</SandboxFolder>
+            <ReadOnly>False</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\Users\Public\Videos</HostFolder>
+            <SandboxFolder>C:\Users\Public\Videos</SandboxFolder>
+            <ReadOnly>False</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+</Configuration>
